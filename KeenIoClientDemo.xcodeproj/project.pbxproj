@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63352391B7E10710026EAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63352381B7E10710026EAED /* main.m */; };
+		D633523C1B7E10710026EAED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D633523B1B7E10710026EAED /* AppDelegate.m */; };
+		D633523F1B7E10710026EAED /* KeenIoClientDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D633523D1B7E10710026EAED /* KeenIoClientDemo.xcdatamodeld */; };
+		D63352421B7E10710026EAED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63352411B7E10710026EAED /* ViewController.m */; };
+		D63352451B7E10710026EAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63352431B7E10710026EAED /* Main.storyboard */; };
+		D63352471B7E10710026EAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63352461B7E10710026EAED /* Images.xcassets */; };
+		D633524A1B7E10710026EAED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63352481B7E10710026EAED /* LaunchScreen.xib */; };
+		D63352561B7E10710026EAED /* KeenIoClientDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63352551B7E10710026EAED /* KeenIoClientDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63352501B7E10710026EAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D633522B1B7E10710026EAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63352321B7E10710026EAED;
+			remoteInfo = KeenIoClientDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D63352331B7E10710026EAED /* KeenIoClientDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeenIoClientDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63352371B7E10710026EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63352381B7E10710026EAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D633523A1B7E10710026EAED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D633523B1B7E10710026EAED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D633523E1B7E10710026EAED /* KeenIoClientDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeenIoClientDemo.xcdatamodel; sourceTree = "<group>"; };
+		D63352401B7E10710026EAED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D63352411B7E10710026EAED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D63352441B7E10710026EAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63352461B7E10710026EAED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D63352491B7E10710026EAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D633524F1B7E10710026EAED /* KeenIoClientDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeenIoClientDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63352541B7E10710026EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63352551B7E10710026EAED /* KeenIoClientDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeenIoClientDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63352301B7E10710026EAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D633524C1B7E10710026EAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D633522A1B7E10710026EAED = {
+			isa = PBXGroup;
+			children = (
+				D63352351B7E10710026EAED /* KeenIoClientDemo */,
+				D63352521B7E10710026EAED /* KeenIoClientDemoTests */,
+				D63352341B7E10710026EAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63352341B7E10710026EAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63352331B7E10710026EAED /* KeenIoClientDemo.app */,
+				D633524F1B7E10710026EAED /* KeenIoClientDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63352351B7E10710026EAED /* KeenIoClientDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D633523A1B7E10710026EAED /* AppDelegate.h */,
+				D633523B1B7E10710026EAED /* AppDelegate.m */,
+				D63352401B7E10710026EAED /* ViewController.h */,
+				D63352411B7E10710026EAED /* ViewController.m */,
+				D63352431B7E10710026EAED /* Main.storyboard */,
+				D63352461B7E10710026EAED /* Images.xcassets */,
+				D63352481B7E10710026EAED /* LaunchScreen.xib */,
+				D633523D1B7E10710026EAED /* KeenIoClientDemo.xcdatamodeld */,
+				D63352361B7E10710026EAED /* Supporting Files */,
+			);
+			path = KeenIoClientDemo;
+			sourceTree = "<group>";
+		};
+		D63352361B7E10710026EAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63352371B7E10710026EAED /* Info.plist */,
+				D63352381B7E10710026EAED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D63352521B7E10710026EAED /* KeenIoClientDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D63352551B7E10710026EAED /* KeenIoClientDemoTests.m */,
+				D63352531B7E10710026EAED /* Supporting Files */,
+			);
+			path = KeenIoClientDemoTests;
+			sourceTree = "<group>";
+		};
+		D63352531B7E10710026EAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63352541B7E10710026EAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63352321B7E10710026EAED /* KeenIoClientDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63352591B7E10710026EAED /* Build configuration list for PBXNativeTarget "KeenIoClientDemo" */;
+			buildPhases = (
+				D633522F1B7E10710026EAED /* Sources */,
+				D63352301B7E10710026EAED /* Frameworks */,
+				D63352311B7E10710026EAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeenIoClientDemo;
+			productName = KeenIoClientDemo;
+			productReference = D63352331B7E10710026EAED /* KeenIoClientDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D633524E1B7E10710026EAED /* KeenIoClientDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D633525C1B7E10710026EAED /* Build configuration list for PBXNativeTarget "KeenIoClientDemoTests" */;
+			buildPhases = (
+				D633524B1B7E10710026EAED /* Sources */,
+				D633524C1B7E10710026EAED /* Frameworks */,
+				D633524D1B7E10710026EAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63352511B7E10710026EAED /* PBXTargetDependency */,
+			);
+			name = KeenIoClientDemoTests;
+			productName = KeenIoClientDemoTests;
+			productReference = D633524F1B7E10710026EAED /* KeenIoClientDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D633522B1B7E10710026EAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = chenkai;
+				TargetAttributes = {
+					D63352321B7E10710026EAED = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D633524E1B7E10710026EAED = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D63352321B7E10710026EAED;
+					};
+				};
+			};
+			buildConfigurationList = D633522E1B7E10710026EAED /* Build configuration list for PBXProject "KeenIoClientDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D633522A1B7E10710026EAED;
+			productRefGroup = D63352341B7E10710026EAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63352321B7E10710026EAED /* KeenIoClientDemo */,
+				D633524E1B7E10710026EAED /* KeenIoClientDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63352311B7E10710026EAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63352451B7E10710026EAED /* Main.storyboard in Resources */,
+				D633524A1B7E10710026EAED /* LaunchScreen.xib in Resources */,
+				D63352471B7E10710026EAED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D633524D1B7E10710026EAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D633522F1B7E10710026EAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D633523C1B7E10710026EAED /* AppDelegate.m in Sources */,
+				D633523F1B7E10710026EAED /* KeenIoClientDemo.xcdatamodeld in Sources */,
+				D63352421B7E10710026EAED /* ViewController.m in Sources */,
+				D63352391B7E10710026EAED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D633524B1B7E10710026EAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63352561B7E10710026EAED /* KeenIoClientDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63352511B7E10710026EAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63352321B7E10710026EAED /* KeenIoClientDemo */;
+			targetProxy = D63352501B7E10710026EAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63352431B7E10710026EAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63352441B7E10710026EAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63352481B7E10710026EAED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63352491B7E10710026EAED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63352571B7E10710026EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D63352581B7E10710026EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D633525A1B7E10710026EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeenIoClientDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D633525B1B7E10710026EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeenIoClientDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D633525D1B7E10710026EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeenIoClientDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeenIoClientDemo.app/KeenIoClientDemo";
+			};
+			name = Debug;
+		};
+		D633525E1B7E10710026EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeenIoClientDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeenIoClientDemo.app/KeenIoClientDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D633522E1B7E10710026EAED /* Build configuration list for PBXProject "KeenIoClientDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63352571B7E10710026EAED /* Debug */,
+				D63352581B7E10710026EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63352591B7E10710026EAED /* Build configuration list for PBXNativeTarget "KeenIoClientDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D633525A1B7E10710026EAED /* Debug */,
+				D633525B1B7E10710026EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D633525C1B7E10710026EAED /* Build configuration list for PBXNativeTarget "KeenIoClientDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D633525D1B7E10710026EAED /* Debug */,
+				D633525E1B7E10710026EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D633523D1B7E10710026EAED /* KeenIoClientDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D633523E1B7E10710026EAED /* KeenIoClientDemo.xcdatamodel */,
+			);
+			currentVersion = D633523E1B7E10710026EAED /* KeenIoClientDemo.xcdatamodel */;
+			path = KeenIoClientDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D633522B1B7E10710026EAED /* Project object */;
+}
