@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "KeenClient.h"
+
+#define PROJECT_ID @"55cd7090d2eaaa0a81dbcb6c"
+#define WRITE_KEY  @"44d517d36d87374ccf226688e4210ed66057035b63e53dff7b0c4bbc3d93354ec3d193b94cd31fc4b60decdec6261ebaff30b63fa666d56e23233bc65aea5f9c569c7d5b5a2319434f031bb1535798bf7ed8a481faa233999dd42e7594b33b60e30eb8e5513b300c8567fd1f2d85e6d5"
+#define READ_KEY   @"0ab62fb3b53c9171da8e5ca903da1d1dc7bd01f3a1c1d65680a3540961b3edc80de3707f117f7555484f49bf924734cfd706f968fe64c32c3feab23cd18fac81d251fdfd856560d40aff3db5011fa805bc18f95b278c253aba3941b7b76a661986a880a8ff0f434ecb999d6b726406e0"
 
 @interface AppDelegate ()
 
@@ -16,13 +21,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [KeenClient sharedClientWithProjectId:PROJECT_ID
+                              andWriteKey:WRITE_KEY
+                               andReadKey:READ_KEY];
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -35,7 +41,8 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    KeenClient *client = [KeenClient sharedClient];
+    client.globalPropertiesDictionary = @{@"Device_OS_Version": @"iOS9.0",@"Client_Version":@"V1.0",@"Mark":@"测试数据"};
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

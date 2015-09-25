@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E92B5C9CEAE14EDC7A5A2CD /* HTTPCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D83FD5A2B14523ED05A3B /* HTTPCodes.m */; };
+		1174174BC3DA22F427A2568F /* KeenProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AF15528BBECE4F99978D4 /* KeenProperties.m */; };
+		1C30B011BED8A0CB3EFA3960 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AFBF6D05E1156DE0CA1ED /* Pods-dummy.m */; };
+		1D7435D9C0C698DB70CD57F7 /* keen_io_sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0AA906FD87DD6A8209C666 /* keen_io_sqlite3ext.h */; };
+		24B593AAB0496748DC3FCB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9260079D16E4786D1395B8F1 /* Foundation.framework */; };
+		375572798B59FABC3F548D0E /* KIOEventStore_PrivateMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE89F6AC128F8763CF1675B /* KIOEventStore_PrivateMethods.h */; };
+		5970EFAA57B9AF99A54587AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D753DF092412B6168AA5B78F /* CoreLocation.framework */; };
+		5A92352B8EB07B49A750569A /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F273071182F7766A3BE490 /* KeenClient.m */; };
+		6DCC343AD2EBC2A684E730C6 /* keen_io_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = BEC31FDFAC6D9A4A6BDA9A27 /* keen_io_sqlite3.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7AC00DCBBBFB48A13B0EE07D /* KIOEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5A7DF6F0D02E45C9F0CC29 /* KIOEventStore.h */; };
+		86A14A5D27B56675D8482001 /* KIOEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310B995F1CEDE99746A46E9 /* KIOEventStore.m */; };
+		8ADE3B97D133F1498D6E855C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9260079D16E4786D1395B8F1 /* Foundation.framework */; };
+		911DD7A3185A44BD468E9D7D /* KeenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1661098973D3050C6BF228EE /* KeenClient.h */; };
+		994E33ACDE0E1105724F4F07 /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 747E3A7518B5A017C0A9AEAC /* keen_io_sqlite3.h */; };
+		A8D5A059B9CD79D17D036DBD /* Pods-KeenClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE957AC2439B27DD3CC85CD /* Pods-KeenClient-dummy.m */; };
+		C1F1F2FA582FCD24B16A5AEC /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE1B4917043EE1EF726B63 /* KeenConstants.m */; };
+		C53CB95B18B9AEB4AACB1FD9 /* HTTPCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E04DACEF0FB71280AEAE07 /* HTTPCodes.h */; };
+		C85DA181044C1632BE09FBFB /* KIOReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E478772C0CC22C05FD73AD /* KIOReachability.h */; };
+		CA531A22FC3A3D081FB97E84 /* KeenProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = C9EAAEE576C5ABE0A92626A8 /* KeenProperties.h */; };
+		D8A04DA08DDFB0D5B99568E3 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D1311312702E137C91191531 /* KeenConstants.h */; };
+		FFCA4EAF2B6E0E4C7494E112 /* KIOReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DD7A75FA5CE2005B0091AD /* KIOReachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE281FD63582CD1A478242D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECBDE5E6299637E8E8BE604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9AE25ABF07139064030FB72;
+			remoteInfo = "Pods-KeenClient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DD7A75FA5CE2005B0091AD /* KIOReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIOReachability.m; path = Library/Reachability/KIOReachability.m; sourceTree = "<group>"; };
+		0310B995F1CEDE99746A46E9 /* KIOEventStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIOEventStore.m; path = KeenClient/KIOEventStore.m; sourceTree = "<group>"; };
+		04BE1B4917043EE1EF726B63 /* KeenConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeenConstants.m; path = KeenClient/KeenConstants.m; sourceTree = "<group>"; };
+		1661098973D3050C6BF228EE /* KeenClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeenClient.h; path = KeenClient/KeenClient.h; sourceTree = "<group>"; };
+		1EE89F6AC128F8763CF1675B /* KIOEventStore_PrivateMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIOEventStore_PrivateMethods.h; path = KeenClient/KIOEventStore_PrivateMethods.h; sourceTree = "<group>"; };
+		21E04DACEF0FB71280AEAE07 /* HTTPCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPCodes.h; path = KeenClient/HTTPCodes.h; sourceTree = "<group>"; };
+		23E478772C0CC22C05FD73AD /* KIOReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIOReachability.h; path = Library/Reachability/KIOReachability.h; sourceTree = "<group>"; };
+		28A62C9010A7BD79D9638510 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		2C325C64C3CCB2C17EEF783B /* Pods-KeenClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenClient.xcconfig"; sourceTree = "<group>"; };
+		320782E89667C83E966F678D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C0FE0D80660658912B286C1 /* Pods-KeenClient-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenClient-Private.xcconfig"; sourceTree = "<group>"; };
+		3E9A4946AB70B692886DBEB3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE957AC2439B27DD3CC85CD /* Pods-KeenClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenClient-dummy.m"; sourceTree = "<group>"; };
+		43F273071182F7766A3BE490 /* KeenClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeenClient.m; path = KeenClient/KeenClient.m; sourceTree = "<group>"; };
+		482D83FD5A2B14523ED05A3B /* HTTPCodes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPCodes.m; path = KeenClient/HTTPCodes.m; sourceTree = "<group>"; };
+		4A35E6F84F7B73694C355A17 /* libPods-KeenClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E519EDF350E4414F84375B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		6B5A7DF6F0D02E45C9F0CC29 /* KIOEventStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIOEventStore.h; path = KeenClient/KIOEventStore.h; sourceTree = "<group>"; };
+		747E3A7518B5A017C0A9AEAC /* keen_io_sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keen_io_sqlite3.h; path = "Library/sqlite-amalgamation/keen_io_sqlite3.h"; sourceTree = "<group>"; };
+		7D0AA906FD87DD6A8209C666 /* keen_io_sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keen_io_sqlite3ext.h; path = "Library/sqlite-amalgamation/keen_io_sqlite3ext.h"; sourceTree = "<group>"; };
+		8F6AF15528BBECE4F99978D4 /* KeenProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeenProperties.m; path = KeenClient/KeenProperties.m; sourceTree = "<group>"; };
+		913292BB494FBC1A3ABA037C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9260079D16E4786D1395B8F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B423CAA7F2C55BE5A388C2B2 /* Pods-KeenClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenClient-prefix.pch"; sourceTree = "<group>"; };
+		BEC31FDFAC6D9A4A6BDA9A27 /* keen_io_sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = keen_io_sqlite3.c; path = "Library/sqlite-amalgamation/keen_io_sqlite3.c"; sourceTree = "<group>"; };
+		C9EAAEE576C5ABE0A92626A8 /* KeenProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeenProperties.h; path = KeenClient/KeenProperties.h; sourceTree = "<group>"; };
+		D1311312702E137C91191531 /* KeenConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeenConstants.h; path = KeenClient/KeenConstants.h; sourceTree = "<group>"; };
+		D753DF092412B6168AA5B78F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		DD3AFBF6D05E1156DE0CA1ED /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		DF7FBB5E82BBF2DD01BAC96E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		DF842C5BB8B726DF31AF20B7 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		E065926975EDCE99E7DA33BD /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FB25B3DF8B21E8364CA43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADE3B97D133F1498D6E855C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA1E1D3823AC897BA4F9131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970EFAA57B9AF99A54587AE /* CoreLocation.framework in Frameworks */,
+				24B593AAB0496748DC3FCB34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198B3964E1A84FD9B687B9E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				913292BB494FBC1A3ABA037C /* Pods-acknowledgements.markdown */,
+				DF842C5BB8B726DF31AF20B7 /* Pods-acknowledgements.plist */,
+				DD3AFBF6D05E1156DE0CA1ED /* Pods-dummy.m */,
+				28A62C9010A7BD79D9638510 /* Pods-environment.h */,
+				E065926975EDCE99E7DA33BD /* Pods-resources.sh */,
+				DF7FBB5E82BBF2DD01BAC96E /* Pods.debug.xcconfig */,
+				5E519EDF350E4414F84375B9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		4E98780684793B1AE14557A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C325C64C3CCB2C17EEF783B /* Pods-KeenClient.xcconfig */,
+				3C0FE0D80660658912B286C1 /* Pods-KeenClient-Private.xcconfig */,
+				3EE957AC2439B27DD3CC85CD /* Pods-KeenClient-dummy.m */,
+				B423CAA7F2C55BE5A388C2B2 /* Pods-KeenClient-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenClient";
+			sourceTree = "<group>";
+		};
+		6BC6EE76974C81CA85CF66A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				727BFA7E29B46043EE4049E2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		727BFA7E29B46043EE4049E2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D753DF092412B6168AA5B78F /* CoreLocation.framework */,
+				9260079D16E4786D1395B8F1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B85E87B501295C81B4AB9AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C68CB883C40BDD098328433E /* KeenClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B190370A873CE68109D189B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				198B3964E1A84FD9B687B9E4 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B29120541E4C32482E9E22DB /* keen_sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				BEC31FDFAC6D9A4A6BDA9A27 /* keen_io_sqlite3.c */,
+				747E3A7518B5A017C0A9AEAC /* keen_io_sqlite3.h */,
+				7D0AA906FD87DD6A8209C666 /* keen_io_sqlite3ext.h */,
+			);
+			name = keen_sqlite;
+			sourceTree = "<group>";
+		};
+		C68CB883C40BDD098328433E /* KeenClient */ = {
+			isa = PBXGroup;
+			children = (
+				21E04DACEF0FB71280AEAE07 /* HTTPCodes.h */,
+				482D83FD5A2B14523ED05A3B /* HTTPCodes.m */,
+				6B5A7DF6F0D02E45C9F0CC29 /* KIOEventStore.h */,
+				0310B995F1CEDE99746A46E9 /* KIOEventStore.m */,
+				1EE89F6AC128F8763CF1675B /* KIOEventStore_PrivateMethods.h */,
+				23E478772C0CC22C05FD73AD /* KIOReachability.h */,
+				01DD7A75FA5CE2005B0091AD /* KIOReachability.m */,
+				1661098973D3050C6BF228EE /* KeenClient.h */,
+				43F273071182F7766A3BE490 /* KeenClient.m */,
+				D1311312702E137C91191531 /* KeenConstants.h */,
+				04BE1B4917043EE1EF726B63 /* KeenConstants.m */,
+				C9EAAEE576C5ABE0A92626A8 /* KeenProperties.h */,
+				8F6AF15528BBECE4F99978D4 /* KeenProperties.m */,
+				4E98780684793B1AE14557A1 /* Support Files */,
+				B29120541E4C32482E9E22DB /* keen_sqlite */,
+			);
+			path = KeenClient;
+			sourceTree = "<group>";
+		};
+		D23E635FA9F7845C621499C4 = {
+			isa = PBXGroup;
+			children = (
+				320782E89667C83E966F678D /* Podfile */,
+				6BC6EE76974C81CA85CF66A5 /* Frameworks */,
+				9B85E87B501295C81B4AB9AA /* Pods */,
+				D33C59D6CEC60EEA7018AA08 /* Products */,
+				B190370A873CE68109D189B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D33C59D6CEC60EEA7018AA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E9A4946AB70B692886DBEB3 /* libPods.a */,
+				4A35E6F84F7B73694C355A17 /* libPods-KeenClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		751EB9CBE7B996A62FE3B735 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53CB95B18B9AEB4AACB1FD9 /* HTTPCodes.h in Headers */,
+				7AC00DCBBBFB48A13B0EE07D /* KIOEventStore.h in Headers */,
+				375572798B59FABC3F548D0E /* KIOEventStore_PrivateMethods.h in Headers */,
+				C85DA181044C1632BE09FBFB /* KIOReachability.h in Headers */,
+				911DD7A3185A44BD468E9D7D /* KeenClient.h in Headers */,
+				D8A04DA08DDFB0D5B99568E3 /* KeenConstants.h in Headers */,
+				CA531A22FC3A3D081FB97E84 /* KeenProperties.h in Headers */,
+				994E33ACDE0E1105724F4F07 /* keen_io_sqlite3.h in Headers */,
+				1D7435D9C0C698DB70CD57F7 /* keen_io_sqlite3ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9AE25ABF07139064030FB72 /* Pods-KeenClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EB8D0977DBDB5649200638 /* Build configuration list for PBXNativeTarget "Pods-KeenClient" */;
+			buildPhases = (
+				DA45AD71B903BBA226C759F2 /* Sources */,
+				BDA1E1D3823AC897BA4F9131 /* Frameworks */,
+				751EB9CBE7B996A62FE3B735 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenClient";
+			productName = "Pods-KeenClient";
+			productReference = 4A35E6F84F7B73694C355A17 /* libPods-KeenClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D970CDFE60E1CCF5C93AD359 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936DDF7E5FA5CF6B929592FD /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				46924BBC7AB8621643D4C264 /* Sources */,
+				01FB25B3DF8B21E8364CA43F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FFDB629CEC8663493561417 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3E9A4946AB70B692886DBEB3 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ECBDE5E6299637E8E8BE604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BCDA675DED3409C872467CBE /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D23E635FA9F7845C621499C4;
+			productRefGroup = D33C59D6CEC60EEA7018AA08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D970CDFE60E1CCF5C93AD359 /* Pods */,
+				B9AE25ABF07139064030FB72 /* Pods-KeenClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46924BBC7AB8621643D4C264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C30B011BED8A0CB3EFA3960 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA45AD71B903BBA226C759F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E92B5C9CEAE14EDC7A5A2CD /* HTTPCodes.m in Sources */,
+				86A14A5D27B56675D8482001 /* KIOEventStore.m in Sources */,
+				FFCA4EAF2B6E0E4C7494E112 /* KIOReachability.m in Sources */,
+				5A92352B8EB07B49A750569A /* KeenClient.m in Sources */,
+				C1F1F2FA582FCD24B16A5AEC /* KeenConstants.m in Sources */,
+				1174174BC3DA22F427A2568F /* KeenProperties.m in Sources */,
+				A8D5A059B9CD79D17D036DBD /* Pods-KeenClient-dummy.m in Sources */,
+				6DCC343AD2EBC2A684E730C6 /* keen_io_sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FFDB629CEC8663493561417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenClient";
+			target = B9AE25ABF07139064030FB72 /* Pods-KeenClient */;
+			targetProxy = DE281FD63582CD1A478242D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1295A8F5B83BBC2E4BCC44DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BEFB4B7DDB5A256A3A3DC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E59CEB0F859807DE2907BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7FBB5E82BBF2DD01BAC96E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C7B80D137850B162393062D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0FE0D80660658912B286C1 /* Pods-KeenClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenClient/Pods-KeenClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86DFF4C43B1ECE436EEC1135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0FE0D80660658912B286C1 /* Pods-KeenClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenClient/Pods-KeenClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF3DDF803055121D19E49AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E519EDF350E4414F84375B9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74EB8D0977DBDB5649200638 /* Build configuration list for PBXNativeTarget "Pods-KeenClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DFF4C43B1ECE436EEC1135 /* Debug */,
+				3C7B80D137850B162393062D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936DDF7E5FA5CF6B929592FD /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E59CEB0F859807DE2907BFE /* Debug */,
+				AF3DDF803055121D19E49AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDA675DED3409C872467CBE /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEFB4B7DDB5A256A3A3DC86 /* Debug */,
+				1295A8F5B83BBC2E4BCC44DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ECBDE5E6299637E8E8BE604 /* Project object */;
+}

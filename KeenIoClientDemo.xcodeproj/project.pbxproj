@@ -15,6 +15,7 @@
 		D63352471B7E10710026EAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63352461B7E10710026EAED /* Images.xcassets */; };
 		D633524A1B7E10710026EAED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63352481B7E10710026EAED /* LaunchScreen.xib */; };
 		D63352561B7E10710026EAED /* KeenIoClientDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63352551B7E10710026EAED /* KeenIoClientDemoTests.m */; };
+		E3666B1CFA0908DB4BD3E182 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CB5222F03ACABF87F418C0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		129411430638FEAFE439282F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		57CB5222F03ACABF87F418C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B130059360226953B4208748 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D63352331B7E10710026EAED /* KeenIoClientDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeenIoClientDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63352371B7E10710026EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D63352381B7E10710026EAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3666B1CFA0908DB4BD3E182 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +67,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65FD38AE44ADAFF498B9BA0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CB5222F03ACABF87F418C0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA945B2EF0A6099B78A030D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B130059360226953B4208748 /* Pods.debug.xcconfig */,
+				129411430638FEAFE439282F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D633522A1B7E10710026EAED = {
 			isa = PBXGroup;
 			children = (
 				D63352351B7E10710026EAED /* KeenIoClientDemo */,
 				D63352521B7E10710026EAED /* KeenIoClientDemoTests */,
 				D63352341B7E10710026EAED /* Products */,
+				CAA945B2EF0A6099B78A030D /* Pods */,
+				65FD38AE44ADAFF498B9BA0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D63352591B7E10710026EAED /* Build configuration list for PBXNativeTarget "KeenIoClientDemo" */;
 			buildPhases = (
+				1BE36E10787FB9C1E2D61296 /* Check Pods Manifest.lock */,
 				D633522F1B7E10710026EAED /* Sources */,
 				D63352301B7E10710026EAED /* Frameworks */,
 				D63352311B7E10710026EAED /* Resources */,
+				F4F36091E0A4C3A4AAF4249D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +242,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE36E10787FB9C1E2D61296 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F36091E0A4C3A4AAF4249D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D633522F1B7E10710026EAED /* Sources */ = {
@@ -349,6 +408,7 @@
 		};
 		D633525A1B7E10710026EAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B130059360226953B4208748 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeenIoClientDemo/Info.plist;
@@ -359,6 +419,7 @@
 		};
 		D633525B1B7E10710026EAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129411430638FEAFE439282F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeenIoClientDemo/Info.plist;
@@ -420,6 +481,7 @@
 				D633525B1B7E10710026EAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D633525C1B7E10710026EAED /* Build configuration list for PBXNativeTarget "KeenIoClientDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +490,7 @@
 				D633525E1B7E10710026EAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
